@@ -1,0 +1,241 @@
+@import url('http://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+   padding:0%;
+   margin: 0%;
+   box-sizing: border-box;
+}
+body{
+   font-family: 'Quicksand',sans-serif;
+}
+/*utilite classes*/
+.primary-text{
+   color:rgb(17, 251, 17);
+}
+.btn{
+   display:inline-block;
+   border:none;
+   padding:5px 5px;
+   border-radius:15px;
+}
+.btn-primary{
+   color:white ;
+   border:1px solid #fff;
+}
+.btn-sacondary{
+   background: rgba(0, 128, 0, 0.704);
+   padding: 15px;
+   margin: 10px;
+   margin-left: 20rem;
+}
+.btn-primary:hover,
+.btn-sacondary:hover{
+   background:rgb(17, 251, 17) ;
+}
+/*header start */
+header{
+   height: 100vh;
+   background: url('Plants_pic/Home2.jpg') no-repeat center center/cover;
+   position:relative;
+}
+#navbar{
+   padding:20px;
+   display:flex;
+   justify-content: space-between;
+}
+#navbar img{
+   width: 100px;
+}
+a{
+   text-decoration: none;
+}
+#navbar ul{
+display: flex;
+list-style: none;
+margin-right:50px;
+}
+#navbar ul li a{
+   color:white;
+   padding:20px
+}
+header .content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height:60%;
+}
+header .content h1{
+   color: white;
+   font-size: 40px;
+}
+header .content p{
+   margin:15px 0;
+   color: white;
+}
+/*header part 2 */
+header::before{
+   content:"";
+   position:absolute;
+   top:0;
+   bottom:0;
+   height:100%;
+   width:100%;
+   background-color:rgba(0, 0, 0, 0.438);
+}
+header *{
+   z-index:10;
+}
+/*header end */
+/*about start*/
+#about{
+   height: 80vh;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+#about .title{
+   text-align: center;
+   margin-bottom: 4vh;
+   margin-right: 20rem;
+}
+#about h1,
+#menu .title h1,
+#offers .title h1{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 40px;
+      color: green;
+
+}
+#about .title p{
+   color: #a9a9a9;
+   font-size: 14px;
+}
+.container{
+   max-width: 1100px;
+   margin: auto;
+}
+#about .about-content{
+   display: flex;
+   justify-content:space-between;
+}
+#about img {
+   width: 300px;
+   height:300px;
+}
+#about .about-content p{
+   color:#a9a9a9 ;
+   font-weight: 300;
+   margin-right: 6rem;
+   line-height: 2;
+   text-align: center;
+}
+.btn{
+   border-radius: 15px;
+   border: 1px solid;
+   color: white;
+}
+/*about end*/
+/*start offers*/
+#offers{
+   height: 80vh;
+   background: rgba(0, 128, 0, 0.467);
+   margin: auto;
+   display: flex;
+   justify-content: center;
+}
+#offers .title,
+#menu .title {
+   text-align: center;
+   margin-bottom: 4rem;
+}
+#offers .title p{
+   color: red;
+}
+#offers .offers-items{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   align-items: center;
+}
+#offers .offers-items h2{
+   font-size: 25px;
+   margin: 5px 0;
+}
+#offers .offers-items p{
+   font-size: 14px;
+   padding: 0 10px;
+   color: white;
+   margin-bottom: 10px;
+}
+#offers .offers-items span{
+   font-size: 18px ;
+   color: green;
+   padding-right: 10px;
+   margin-left: 5px;
+   font-weight: 600;
+}
+#offers .offers-items mark{
+   background-color: green;
+   color: white;
+}
+#offers .offers-items img{
+   height: 200px;
+   border-radius: 15px;
+}
+
+/*end offers*/
+/*start menu*/
+#menu
+{
+   padding: 0 0;
+   justify-content: center;
+   display: flex;
+
+}
+#menu .menu-items p{
+   font-size: 14px;
+}
+#menu .menu-items{
+   display: flex;
+   justify-content: space-between;
+}
+#menu .menu-items img{
+   width: 80px;
+   border-radius: 50%;
+   margin-right: 2rem;
+}
+#menu .menu-items{
+   justify-content: space-between;
+}
+#menu .menu-item {
+   display: flex;
+   margin: 4rem;
+}
+#menu .menu-item h3{
+   color: brown;
+   border-bottom: 1px dashed #c2bdbd;
+   margin-bottom: 5px;
+   padding: 5px;
+   position: relative;
+}
+#menu .menu-item span{
+   color: green;
+   font-size: 12px;
+   position: absolute;
+   right: 0;
+   top: 0;
+}
+#menu button{
+   color: white;
+   background-color: green;
+   display:block;
+   margin: auto;
+   padding: 10px;
+}
+#menu button:hover{
+   background-color: rgb(10, 182, 10);
+   cursor: pointer;
+}
+/*start menu*/
+
+

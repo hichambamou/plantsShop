@@ -1,0 +1,53 @@
+*{
+   box-sizing: border-box;
+   padding: 0;margin: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-decoration: none;
+   text-transform:capitalize;
+   transition: .2s linear; 
+}
+html{
+   font-size: 62.5%;
+   scroll-behavior: smooth;
+   scroll-padding-top: 6rem;
+   overflow-x:hidden;
+}
+.container{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.container .shop img{
+   height: 350px;
+   width: 400px;
+   align-self: flex-start;
+}
+.container .shop {
+   width: 700px;
+   display: flex;
+   justify-content: center;
+   background-color: #c4c4c494;
+   padding: .8rem;
+}
+.container .shop .about-product{
+   font-size: 1.5rem;
+   margin: .8rem;
+   padding: .5rem;
+}
+.container .shop .about-product h2,
+.container .shop .about-product h1{
+   color: #26a66b;
+   margin: 1.3rem ;
+}
+.container .shop .about-product .chose{
+   width: 100%;
+   height: 45px;
+   display:block;
+   margin: 1.3rem 0;
+   border-color: #26a66b;
+   text-align: center;
+   border-radius: .8rem;
+   cursor: pointer;
+}
+
